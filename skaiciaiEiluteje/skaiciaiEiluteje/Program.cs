@@ -13,7 +13,7 @@ namespace skaiciaiEiluteje
             Console.WriteLine("Iveskite skaiciu:");
             double skaicius = Convert.ToDouble(Console.ReadLine());
 
-            Console.WriteLine($"{skaicius} {skaicius} {skaicius} {skaicius}");
+            Console.WriteLine($"{skaicius}{skaicius}{skaicius}{skaicius}");
             
             Console.ReadLine();
         }
