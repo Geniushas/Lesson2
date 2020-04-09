@@ -18,9 +18,6 @@ namespace reiksmiuApkeitimas
 
             A = skaiciusB;
             B = skaiciusA;
-
-            Console.WriteLine(A);
-            Console.ReadLine();
         }
     }
 }
