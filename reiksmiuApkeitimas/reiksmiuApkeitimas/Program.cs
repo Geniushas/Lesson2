@@ -10,6 +10,17 @@ namespace reiksmiuApkeitimas
     {
         static void Main(string[] args)
         {
+            int A = 1;
+            int B = 15;
+
+            int skaiciusA = A;
+            int skaiciusB = B;
+
+            A = skaiciusB;
+            B = skaiciusA;
+
+            Console.WriteLine(A);
+            Console.ReadLine();
         }
     }
 }
